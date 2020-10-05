@@ -137,7 +137,7 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
     document.getElementById("score-" + activePlayer).textContent = score[activePlayer]
 
     // Check if this player win the game:
-    if (score[activePlayer] >= 20) {
+    if (score[activePlayer] >= 100) {
         document.getElementById("name-" + activePlayer).textContent = "WINNER!"
         document.querySelector('.dice').style.display = 'none'
         document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner')
