@@ -3,4 +3,4 @@
 Play it here!
 
 
-http://www.tonystevenj.com/pig-game/
+https://tonystevenj.github.io/pig-game/
